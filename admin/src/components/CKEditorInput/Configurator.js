@@ -238,13 +238,11 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'alignment',
         '|',
-        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent', 'source'
+        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent', 'sourceEditing'
       ],
       shouldNotGroupWhenFull: true
     },
-    source: {
-      contentToolbar: ['sourceEditing']
-    },
+
     heading: {
       options: [
         { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
