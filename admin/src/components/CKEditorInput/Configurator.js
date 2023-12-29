@@ -122,6 +122,8 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.table.TableColumnResize,
       window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
+      window.CKEditor5.sourceEditing.SourceEditing, 
+      window.CKEditor5.htmlSupport.GeneralHtmlSupport,
       StrapiMediaLib
     ],
     toolbar: [
@@ -216,6 +218,8 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
       window.CKEditor5.highlight.Highlight,
+      window.CKEditor5.sourceEditing.SourceEditing, 
+      window.CKEditor5.htmlSupport.GeneralHtmlSupport,
       StrapiMediaLib
     ],
     toolbar: {
