@@ -238,7 +238,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'alignment',
         '|',
-        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent', 
+        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent', 'source'
       ],
       shouldNotGroupWhenFull: true
     },
