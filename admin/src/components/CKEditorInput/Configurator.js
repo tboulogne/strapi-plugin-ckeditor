@@ -64,7 +64,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       '|',
       'link', 'strapiMediaLib', 'insertTable',
       '|',
-      'bulletedList', 'numberedList'
+      'bulletedList', 'numberedList', 'sourceEditing'
     ],
     heading: {
       options: [
@@ -135,7 +135,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'link', 'strapiMediaLib', 'mediaEmbed', 'blockQuote', 'insertTable', 'codeBlock',
         '|',
-        'bulletedList', 'numberedList', 'outdent', 'indent'
+        'bulletedList', 'numberedList', 'outdent', 'indent', 'sourceEditing'
     ],
     heading: {
       options: [
@@ -238,7 +238,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'alignment',
         '|',
-        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent', 'source'
+        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent', 'sourceEditing'
       ],
       shouldNotGroupWhenFull: true
     },
