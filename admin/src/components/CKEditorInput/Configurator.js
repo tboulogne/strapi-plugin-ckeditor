@@ -222,7 +222,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.htmlSupport.GeneralHtmlSupport,
       StrapiMediaLib
     ],
-    htmlSupport:
+    htmlSupport:{
       allow: [
     {
       name: /^(p|h[2-4])$/',
@@ -234,6 +234,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         attributes: true
       }
       ]
+    },
     toolbar: {
       items: [
         'undo', 'redo',
