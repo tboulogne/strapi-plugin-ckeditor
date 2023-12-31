@@ -55,6 +55,19 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.htmlSupport.GeneralHtmlSupport,
       StrapiMediaLib
     ],
+    htmlSupport:{
+      allow: [
+    {
+      name: /^(p|h[2-4])$/',
+      styles: { 'color': true }
+    },
+      {
+        name: 'div',
+        styles: true,
+        attributes: true
+      }
+      ]
+    },
     toolbar: [
       'undo', 'redo',
       '|',
@@ -126,6 +139,19 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.htmlSupport.GeneralHtmlSupport,
       StrapiMediaLib
     ],
+    htmlSupport:{
+      allow: [
+    {
+      name: /^(p|h[2-4])$/',
+      styles: { 'color': true }
+    },
+      {
+        name: 'div',
+        styles: true,
+        attributes: true
+      }
+      ]
+    },
     toolbar: [
         'undo', 'redo',
         '|',
