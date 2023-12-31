@@ -58,7 +58,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
     htmlSupport:{
       allow: [
     {
-      name: /^(p|h[2-4])$/',
+      name: '/^(p|h[2-4])$/',
       styles: { 'color': true }
     },
       {
@@ -142,7 +142,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
     htmlSupport:{
       allow: [
     {
-      name: /^(p|h[2-4])$/',
+      name: '/^(p|h[2-4])$/',
       styles: { 'color': true }
     },
       {
@@ -251,7 +251,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
     htmlSupport:{
       allow: [
     {
-      name: /^(p|h[2-4])$/',
+      name: '/^(p|h[2-4])$/',
       styles: { 'color': true }
     },
       {
