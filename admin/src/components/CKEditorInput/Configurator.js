@@ -64,7 +64,8 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       {
         name: 'div',
         styles: true,
-        attributes: true
+        attributes: true,
+        classes: true
       }
       ]
     },
@@ -148,7 +149,8 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       {
         name: 'div',
         styles: true,
-        attributes: true
+        attributes: true,
+        classes: true
       }
       ]
     },
@@ -257,7 +259,8 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       {
         name: 'div',
         styles: true,
-        attributes: true
+        attributes: true,
+        classes: true
       }
       ]
     },
