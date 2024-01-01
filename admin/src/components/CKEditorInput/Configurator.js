@@ -59,7 +59,9 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       allow: [
     {
       name: '/^(p|h[2-4])$/',
-      styles: { 'color': true }
+      styles: true,
+        attributes: true,
+        classes: true
     },
       {
         name: 'div',
@@ -73,6 +75,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         attributes: true,
         classes: true
       }
+        
       ]
     },
     toolbar: [
@@ -150,7 +153,9 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       allow: [
     {
       name: '/^(p|h[2-4])$/',
-      styles: { 'color': true }
+      styles: true,
+        attributes: true,
+        classes: true
     },
       {
         name: 'div',
@@ -266,7 +271,9 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       allow: [
     {
       name: '/^(p|h[2-4])$/',
-      styles: { 'color': true }
+      styles: true,
+        attributes: true,
+        classes: true
     },
       {
         name: 'div',
