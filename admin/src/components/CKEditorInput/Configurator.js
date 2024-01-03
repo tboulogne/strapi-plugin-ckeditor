@@ -74,6 +74,12 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         styles: true,
         attributes: true,
         classes: true
+      },
+         {
+        name: 'table',
+        styles: true,
+        attributes: true,
+        classes: true
       }
         
       ]
@@ -165,6 +171,12 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       },
         {
         name: 'img',
+        styles: true,
+        attributes: true,
+        classes: true
+      },
+        {
+        name: 'table',
         styles: true,
         attributes: true,
         classes: true
@@ -283,6 +295,12 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       },
         {
         name: 'img',
+        styles: true,
+        attributes: true,
+        classes: true
+      },
+        {
+        name: 'table',
         styles: true,
         attributes: true,
         classes: true
